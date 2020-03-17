@@ -1,9 +1,9 @@
 import {clearPage} from './clear-page';
 
+// clears current html, creates elements, and appends to main content container
 const loadMenuPage = () => {
     clearPage();
 
-    // create elements, and append to main content container
     const mainNode = document.getElementById('content');
     let menuTitle = document.createElement('h1');
     let menuContainer = document.createElement('div');
