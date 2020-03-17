@@ -43,9 +43,19 @@ h1 {
     margin: 10px;
     font-style: italic;
 }
+h2 {
+    font-size: 30px;
+    color: black;
+    margin: 10px;
+}
 #content {
     text-align: center;
 }
 img {
     margin: 10px;
+}
+#menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
