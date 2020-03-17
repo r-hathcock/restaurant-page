@@ -3,6 +3,7 @@ import {clearPage} from './clear-page';
 const loadHomePage = () => {
     clearPage();
 
+    // create elements, and append to main content container
     const mainNode = document.getElementById("content");
     let homeContentContainer = document.createElement('div');
     let mainImg = document.createElement('img');
